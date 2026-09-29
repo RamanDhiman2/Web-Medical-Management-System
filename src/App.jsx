@@ -1,6 +1,6 @@
 import React from 'react'
 import {Routes , Route} from 'react-router-dom'
-import Logingit  from './pages/Login.jsx'
+import Logined  from './pages/Login.jsx'
 // import Register from './pages/Register'
 
 
@@ -9,7 +9,7 @@ function App() {
     <>
         <Routes>
           <Route path='/' element={<Home/>}></Route>
-          <Route path='/login' element={<Login/>}></Route>
+          <Route path='/login' element={<Logined/>}></Route>
           <Route path='/dashboard' element={<Dashboard/>}></Route>
         </Routes>
     </>
